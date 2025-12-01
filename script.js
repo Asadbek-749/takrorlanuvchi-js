@@ -110,3 +110,19 @@ console.log("S2 =", S2);
 // 12-masala
 console.log("");
 console.log("12-masala");
+let n3 = 5;
+let S3 = 1;
+for (let i = 1.2; i <= n3; i = i + 0.1) {
+  S3 = S3 * i;
+}   
+console.log("S3 =", S3);
+
+// 13-masala
+console.log("");
+console.log("13-masala");
+let n4 = 10;
+let S4 = 1;
+for (let i = 1; i <= n4; i= i + 0.1) {
+  S4 = S4+ i;
+} 
+console.log("S4 =", S4.toFixed(4));
