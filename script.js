@@ -106,7 +106,6 @@ for (let i = 1; i <= n2; i = i + 1) {
 }
 console.log("S2 =", S2);
 
-
 // 12-masala
 console.log("");
 console.log("12-masala");
@@ -114,7 +113,7 @@ let n3 = 5;
 let S3 = 1;
 for (let i = 1.2; i <= n3; i = i + 0.1) {
   S3 = S3 * i;
-}   
+}
 console.log("S3 =", S3);
 
 // 13-masala
@@ -122,7 +121,54 @@ console.log("");
 console.log("13-masala");
 let n4 = 10;
 let S4 = 1;
-for (let i = 1; i <= n4; i= i + 0.1) {
-  S4 = S4+ i;
-} 
+for (let i = 1; i <= n4; i = i + 0.1) {
+  S4 = S4 + i;
+}
 console.log("S4 =", S4.toFixed(4));
+
+
+// 14-masala
+// console.log("");
+// console.log("14-masala");
+
+
+// 15-masala
+console.log("");
+console.log("15-masala");
+let n5 = 5;
+let son = 5;
+let darajasi = 1;
+for (let i = 1; i <= n5; i++) {
+  darajasi = darajasi * son;
+}
+console.log(son + " sonning", n5, "darajasi =", darajasi);
+
+
+// 16- masala
+console.log("");
+console.log("16-masala");
+let a5 = 9;
+let n6 = 5;
+let darajalar=1;
+for(i=1; i<=n6; i++){
+  darajalar=darajalar*a5;
+  console.log(a5+" sonning", i, "darajasi =", darajalar);
+}
+
+// 17-masala
+console.log("");
+console.log("17-masala");
+let a6 = 9;
+let n7 = 5;
+let darajalar1=1;
+let darsumm=1;
+for(i=1; i<=n7; i++){
+  darajalar1=darajalar1*a6;
+  darsumm=darsumm+darajalar1;
+}
+console.log("Darajalar yigindisi =", darsumm);
+
+// 18-masala
+// console.log("");
+// console.log("18-masala");
+// let n8 = 4;
